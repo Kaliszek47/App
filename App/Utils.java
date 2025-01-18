@@ -9,12 +9,12 @@ public class Utils {
 
     // Metoda do inicjowania danych
     static Company initData() {
-        Person firstPerson = new Person("Jan", "Pierwszy", 30, "12345678901");
-        Person secondPerson = new Person("Kazimierz", "Drugi", 40, "23456789012");
-        Person thirdPerson = new Person("Imię", "Trzeci", 25, "34567890123");
-        Person fourthPerson = new Person("Imię", "Czwarty", 35, "45678901234");
-        Person fifthPerson = new Person("Imię", "Piąty", 50, "56789012345");
-        Person sixthPerson = new Person("Imię", "Szósty", 28, "67890123456");
+        Person firstPerson = new Person("Michael", "Jackson", 0, "12345678901");
+        Person secondPerson = new Person("Natalia", "Kaliszek", 19, "23456789012");
+        Person thirdPerson = new Person("Donald", "Trump", 1, "34567890123");
+        Person fourthPerson = new Person("Albert", "Einstein", 1000, "45678901234");
+        Person fifthPerson = new Person("Święty", "Mikołaj", 99, "56789012345");
+        Person sixthPerson = new Person("Super", "Man", 30, "67890123456");
 
         Employee firstEmployee = new Employee(firstPerson.getName(), firstPerson.getSurname(), firstPerson.getAge(), firstPerson.getPesel(), Departament.SALES);
         Employee secondEmployee = new Employee(secondPerson.getName(), secondPerson.getSurname(), secondPerson.getAge(), secondPerson.getPesel(), Departament.FINANCE);
